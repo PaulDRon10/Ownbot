@@ -93,11 +93,11 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
     'message_id'=>$callbackmessageid,
     'text'=>"<b>━━CC Checker Gates━━</b>
   
-<b>/ss | !ss - Stripe [Auth]</b>
-<b>/sm | !sm - Stripe [Merchant]</b>
-<b>/schk | !schk - User Stripe Merchant [Needs SK]</b>
+<b>/ss - Stripe [Auth]</b>
+<b>/sm - Stripe [Merchant]</b>
+<b>/schk - User Stripe Merchant [Needs SK]</b>
 <b>/apikey sk_live_xxx - Add SK Key for /schk gate</b>
-<b>/myapikey | !myapikey - View the added SK Key for /schk gate</b>
+<b>/myapikey - View the added SK Key for /schk gate</b>
 <b>ϟ Contact <a href='t.me/hiirocchi'>HIIROCCHI</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
@@ -114,11 +114,11 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
     'message_id'=>$callbackmessageid,
     'text'=>"<b>━━Other Commands━━</b>
   
-<b>/me | !me</b> - Your Info
-<b>/stats | !stats</b> - Checker Stats
-<b>/key | !key</b> - SK Key Checker
-<b>/bin | !bin</b> - Bin Lookup
-<b>/iban | !iban</b> - IBAN Checker
+<b>/me</b> - Your Info
+<b>/stats</b> - Checker Stats
+<b>/key</b> - SK Key Checker
+<b>/bin</b> - Bin Lookup
+<b>/iban</b> - IBAN Checker
   
   <b>ϟ Contact <a href='t.me/hiirocchi'>HIIROCCHI</a></b>",
     'parse_mode'=>'html',
