@@ -93,11 +93,11 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
     'message_id'=>$callbackmessageid,
     'text'=>"<b>━━CC Checker Gates━━</b>
   
-<b>/ss - Stripe [Auth]</b>
-<b>/sm - Stripe [Merchant]</b>
-<b>/schk - User Stripe Merchant [Needs SK]</b>
-<b>/apikey sk_live_xxx - Add SK Key for /schk gate</b>
-<b>/myapikey - View the added SK Key for /schk gate</b>
+//<b>/ss - Stripe [Auth]</b>
+//<b>/sm - Stripe [Merchant]</b>
+//<b>/schk - User Stripe Merchant [Needs SK]</b>
+//<b>/apikey sk_live_xxx - Add SK Key for /schk gate</b>
+//<b>/myapikey - View the added SK Key for /schk gate</b>
 <b>ϟ Contact <a href='t.me/hiirocchi'>HIIROCCHI</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
